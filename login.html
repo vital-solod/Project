@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Вхід — EasyStudy</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="profile-page">
+    <header class="site-header">
+      <a class="brand" href="./index.html"><span class="brand-mark">✦</span><span>EasyStudy</span></a>
+      <a class="back-link" href="./index.html">← На головну</a>
+    </header>
+    <main class="profile-main">
+      <section class="profile-card login-card" aria-labelledby="login-title">
+        <div class="profile-card__intro">
+          <p class="eyebrow eyebrow--purple">ПОВЕРТАЄМОСЯ ДО ФОКУСУ</p>
+          <h1 id="login-title">Увійди до свого<br /><span>навчального простору.</span></h1>
+          <p>Збережи свої плани та продовжуй навчання у зручному ритмі.</p>
+        </div>
+        <form class="profile-form" action="./index.html" method="get">
+          <label for="email">Електронна пошта</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          <label for="password">Пароль</label>
+          <input id="password" name="password" type="password" placeholder="Введи пароль" required />
+          <button class="button profile-form__submit" type="submit">Увійти <span aria-hidden="true">→</span></button>
+          <p class="profile-form__note">Демо-форма для навчального проєкту.</p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
